@@ -1,6 +1,7 @@
 const employees = [
     {
         "id": 1,
+        "firstname": "Arjun",
         "email": "employee1@example.com",
         "password": "123",
         "tasks": [
@@ -34,10 +35,17 @@ const employees = [
                 "completed": true,
                 "failed": false
             }
-        ]
+        ],
+        "taskNumbers": {
+            "active": 1,
+            "new": 1,
+            "completed": 1,
+            "failed": 0
+        }
     },
     {
         "id": 2,
+        "firstname": "Priya",
         "email": "employee2@example.com",
         "password": "123",
         "tasks": [
@@ -61,10 +69,17 @@ const employees = [
                 "completed": false,
                 "failed": false
             }
-        ]
+        ],
+        "taskNumbers": {
+            "active": 2,
+            "new": 1,
+            "completed": 0,
+            "failed": 0
+        }
     },
     {
         "id": 3,
+        "firstname": "Kavya",
         "email": "employee3@example.com",
         "password": "123",
         "tasks": [
@@ -98,10 +113,17 @@ const employees = [
                 "completed": false,
                 "failed": true
             }
-        ]
+        ],
+        "taskNumbers": {
+            "active": 0,
+            "new": 1,
+            "completed": 1,
+            "failed": 1
+        }
     },
     {
         "id": 4,
+        "firstname": "Raj",
         "email": "employee4@example.com",
         "password": "123",
         "tasks": [
@@ -135,10 +157,17 @@ const employees = [
                 "completed": true,
                 "failed": false
             }
-        ]
+        ],
+        "taskNumbers": {
+            "active": 2,
+            "new": 1,
+            "completed": 1,
+            "failed": 0
+        }
     },
     {
         "id": 5,
+        "firstname": "Ananya",
         "email": "employee5@example.com",
         "password": "123",
         "tasks": [
@@ -172,13 +201,20 @@ const employees = [
                 "completed": false,
                 "failed": false
             }
-        ]
+        ],
+        "taskNumbers": {
+            "active": 2,
+            "new": 1,
+            "completed": 1,
+            "failed": 0
+        }
     }
 ];
 
 const admin = [
     {
         "id": 1,
+        "firstname": "Gaurang",
         "email": "admin@example.com",
         "password": "123"
     }
